@@ -7,7 +7,6 @@ A simple console-based Bank Management System built in Python using object-orien
 
 ## 📁 Project Structure
 
-```
 Bank Management/
 ├── main.py               # Entry point for the program
 ├── account_operations.py # Contains banking operations (deposit, withdraw, transaction)
@@ -16,7 +15,7 @@ Bank Management/
 ├── utils.py              # Utility functions like input validations
 ├── customer_data.json    # Stores all user account data
 └── README.md             # Project documentation
-```
+
 
 ---
 
@@ -33,7 +32,7 @@ Bank Management/
 
 ## 🧪 Sample Data (JSON)
 
-```json
+json
 {
   "01": {
     "User ID": "01",
@@ -48,7 +47,7 @@ Bank Management/
     "PIN": "9786"
   }
 }
-```
+
 
 ---
 
@@ -63,16 +62,16 @@ Bank Management/
 
 Clone the repo:
 
-```bash
+bash
 git clone https://github.com/yourusername/bank-management.git
 cd bank-management
-```
+
 
 Run the program:
 
-```bash
+bash
 python main.py
-```
+
 
 ---
 
