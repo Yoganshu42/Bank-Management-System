@@ -89,24 +89,15 @@ A Balance stored as a string in JSON
 
 ## 🧑‍💻 Author
 
-**Yoganshu Sharma**
+*Yoganshu Sharma*
 
 Feel free to ⭐ star the repo, 🛠 contribute, or 🍴 fork it!
-
-<<<<<<< HEAD
-📄 License
-This project is licensed under the MIT License.
-
-vbnet
-Copy
-Edit
-
 ✅ You can copy-paste this into your `README.md` and it will appear perfectly on GitHub.
 
 
 All operations load the latest data from customer_data.json, update the records, and save them back — ensuring data persistence.
 
-📌 Notes
+**📌 Notes**
 Ensure the customer_data.json file is not empty or corrupted.
 
 Avoid using the same User ID for both source and destination in a transaction.
