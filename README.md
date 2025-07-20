@@ -211,5 +211,4 @@ This project is licensed under the MIT License.
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
->>>>>>> 3ce0895 (Update README.md)
+ThiUpdate README.md)s project is licensed under the **MIT License**.
