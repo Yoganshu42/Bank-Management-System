@@ -1,0 +1,14 @@
+{
+    "01": {
+        "User ID": "01",
+        "Name": "Yoganshu Sharma",
+        "Balance": "50000.0",
+        "PIN": "9990"
+    },
+    "02": {
+        "User ID": "02",
+        "Name": "Deepak Sharma",
+        "Balance": "9000000",
+        "PIN": "9786"
+    }
+}
