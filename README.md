@@ -1,3 +1,4 @@
+
 # 🏦 Bank Management System (Python Console App)
 
 A simple console-based Bank Management System built in Python using object-oriented programming. The system handles basic banking operations like viewing account details, depositing, withdrawing, and transferring money between users — all stored in a local JSON file.
@@ -6,18 +7,16 @@ A simple console-based Bank Management System built in Python using object-orien
 
 ## 📁 Project Structure
 
+```
 Bank Management/
-├── main.py # Entry point for the program
+├── main.py               # Entry point for the program
 ├── account_operations.py # Contains banking operations (deposit, withdraw, transaction)
-├── account_storage.py # Handles loading/saving JSON data
-├── bank_account.py # Manages account class definitions
-├── utils.py # Utility functions like input validations
-├── customer_data.json # Stores all user account data
-└── README.md # Project documentation
-
-pgsql
-Copy
-Edit
+├── account_storage.py    # Handles loading/saving JSON data
+├── bank_account.py       # Manages account class definitions
+├── utils.py              # Utility functions like input validations
+├── customer_data.json    # Stores all user account data
+└── README.md             # Project documentation
+```
 
 ---
 
@@ -49,9 +48,7 @@ Edit
     "PIN": "9786"
   }
 }
-# 🏦 Bank Management System (Python)
-
-A simple console-based bank management system using Python that allows users to create accounts, deposit, withdraw, transfer funds, and persist data using a JSON file.
+```
 
 ---
 
@@ -69,18 +66,25 @@ Clone the repo:
 ```bash
 git clone https://github.com/yourusername/bank-management.git
 cd bank-management
+```
+
 Run the program:
 
-bash
-Copy
-Edit
+```bash
 python main.py
-🧠 How It Works
+```
+
+---
+
+## 🧠 How It Works
+
 Each user has:
 
-A unique User ID
+- A unique **User ID**
+- A **PIN** for login
+- A **Balance** stored as a string in JSON
 
-A PIN for login
+All operations load the latest data from `customer_data.json`, update the records, and save them back — ensuring data persistence.
 
 A balance stored as a string in JSON# 🏦 Bank Management System (Python Console App)
 
@@ -161,20 +165,21 @@ A PIN for login
 
 A Balance stored as a string in JSON
 
-All operations load the latest data from customer_data.json, update the records, and save them back — ensuring data persistence.
+## 📌 Notes
 
-📌 Notes
-Ensure the customer_data.json file is not empty or corrupted.
+- Ensure the `customer_data.json` file is not empty or corrupted.
+- Avoid using the same User ID for both source and destination in a transaction.
+- Balance is stored as string to keep consistency in JSON formatting.
 
-Avoid using the same User ID for both source and destination in a transaction.
+---
 
-Balance is stored as string to keep consistency in JSON formatting.
+## 🧑‍💻 Author
 
-🧑‍💻 Author
-Yoganshu Sharma
+**Yoganshu Sharma**
 
 Feel free to ⭐ star the repo, 🛠 contribute, or 🍴 fork it!
 
+<<<<<<< HEAD
 📄 License
 This project is licensed under the MIT License.
 
@@ -201,3 +206,10 @@ Feel free to ⭐ star the repo, 🛠 contribute, or 🍴 fork it!
 
 📄 License
 This project is licensed under the MIT License.
+=======
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+>>>>>>> 3ce0895 (Update README.md)
