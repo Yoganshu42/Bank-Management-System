@@ -21,7 +21,7 @@ Copy
 Edit
 
 ---
-```
+
 ## 🚀 Features
 
 - ✅ View account details  
@@ -30,7 +30,7 @@ Edit
 - 🔁 Transfer funds from one user to another  
 - 🧾 JSON file as persistent storage  
 - 🔐 PIN-based access for basic authentication  
-```
+
 ---
 
 ## 🧪 Sample Data (JSON)
@@ -66,10 +66,11 @@ git clone https://github.com/yourusername/bank-management.git
 cd bank-management
 Run the program:
 
-bash
+```bash
 Copy
 Edit
 python main.py
+```
 🧠 How It Works
 Each user has:
 
@@ -96,14 +97,6 @@ Feel free to ⭐ star the repo, 🛠 contribute, or 🍴 fork it!
 
 
 All operations load the latest data from customer_data.json, update the records, and save them back — ensuring data persistence.
-
-**📌 Notes**
-Ensure the customer_data.json file is not empty or corrupted.
-
-Avoid using the same User ID for both source and destination in a transaction.
-
-Balance is stored as string to keep consistency in JSON formatting.
-
 
 ## 📄 License
 
