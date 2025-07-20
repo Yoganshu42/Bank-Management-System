@@ -199,16 +199,7 @@ Avoid using the same User ID for both source and destination in a transaction.
 
 Balance is stored as string to keep consistency in JSON formatting.
 
-🧑‍💻 Author
-Yoganshu Sharma
-
-Feel free to ⭐ star the repo, 🛠 contribute, or 🍴 fork it!
-
-📄 License
-This project is licensed under the MIT License.
-=======
----
 
 ## 📄 License
 
-ThiUpdate README.md)s project is licensed under the **MIT License**.
+This Update README.mds project is licensed under the **MIT License**.
