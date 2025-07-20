@@ -49,17 +49,24 @@ Edit
     "PIN": "9786"
   }
 }
-🔧 Requirements
-Python 3.6+
+# 🏦 Bank Management System (Python)
 
-No external libraries required (uses built-in json and os)
+A simple console-based bank management system using Python that allows users to create accounts, deposit, withdraw, transfer funds, and persist data using a JSON file.
 
-🛠 How to Run
+---
+
+## 🔧 Requirements
+
+- Python 3.6+
+- No external libraries required (uses built-in `json` and `os`)
+
+---
+
+## 🛠 How to Run
+
 Clone the repo:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/bank-management.git
 cd bank-management
 Run the program:
@@ -84,11 +91,12 @@ Ensure the customer_data.json file is not empty or corrupted.
 
 Avoid using the same User ID for both source and destination in a transaction.
 
-Balance is stored as string to keep consistency in JSON.
+Balance is stored as string to keep consistency in JSON formatting.
 
 🧑‍💻 Author
 Yoganshu Sharma
-Feel free to contribute, fork, or star ⭐ the project!
+
+Feel free to ⭐ star the repo, 🛠 contribute, or 🍴 fork it!
 
 📄 License
 This project is licensed under the MIT License.
